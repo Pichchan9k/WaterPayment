@@ -17,7 +17,13 @@
    
     <!-- declare beans -->
 	<bean id="userDao" class="th.co.aware.dao.UserDaoImpl" />
-	 <!-- <bean id="userService" class="th.co.aware.services.UserServiceImpl" />-->
+	<bean id="wateruserDao" class="th.co.aware.dao.WaterUserDaoImpl" />
+	<bean id="historyDao" class="th.co.aware.dao.HistoryDaoImpl" />
+	
+	
+	<bean id="userService" class="th.co.aware.services.UserServiceImpl" />
+	<bean id="wateruserService" class="th.co.aware.services.WaterUserServiceImpl" />
+	<bean id="historyService" class="th.co.aware.services.HistoryServiceImpl" />
 
 	<!-- declare datasource bean -->
 	<bean id="dataSource"
@@ -25,7 +31,7 @@
 		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
 		<property name="url" value="jdbc:mysql://localhost:3306/waterpayment" />
 		<property name="username" value="root" />
-		<property name="password" value="" />
+		<property name="password" value="root" />
 	</bean>
  
   

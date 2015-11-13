@@ -2,94 +2,43 @@ package th.co.aware.bean;
 
 public class User {
 	
-	private Integer id;
-	private String user;
-	private String password;
-	
-	private Integer branchNo;
-	private Integer areaNo;
-	private Integer registrationNumber;
-	private String fname;
-	private String lname;
-	
-	private String address;
-
+	private Integer c_id;
+	private String c_username;
+	private String c_password;
+	private Integer w_id;
 	
 	
-	public Integer getId() {
-		return id;
+	public Integer getW_id() {
+		return w_id;
 	}
 
-	public void setId(Integer id) {
-		this.id = id;
+	public void setW_id(Integer w_id) {
+		this.w_id = w_id;
 	}
 
-	public String getUser() {
-		return user;
+	public Integer getC_id() {
+		return c_id;
 	}
 
-	public void setUser(String user) {
-		this.user = user;
+	public void setC_id(Integer c_id) {
+		this.c_id = c_id;
 	}
 
-	public String getPassword() {
-		return password;
+	public String getC_username() {
+		return c_username;
 	}
 
-	public void setPassword(String password) {
-		this.password = password;
+	public void setC_username(String c_username) {
+		this.c_username = c_username;
 	}
 
-	public Integer getBranchNo() {
-		return branchNo;
+	public String getC_password() {
+		return c_password;
 	}
 
-	public void setBranchNo(Integer branchNo) {
-		this.branchNo = branchNo;
+	public void setC_password(String c_password) {
+		this.c_password = c_password;
 	}
-
-	public Integer getAreaNo() {
-		return areaNo;
-	}
-
-	public void setAreaNo(Integer areaNo) {
-		this.areaNo = areaNo;
-	}
-
-	public Integer getRegistrationNumber() {
-		return registrationNumber;
-	}
-
-	public void setRegistrationNumber(Integer registrationNumber) {
-		this.registrationNumber = registrationNumber;
-	}
-
-	public String getFname() {
-		return fname;
-	}
-
-	public void setFname(String fname) {
-		this.fname = fname;
-	}
-
-	public String getLname() {
-		return lname;
-	}
-
-	public void setLname(String lname) {
-		this.lname = lname;
-	}
-
-	public String getAddress() {
-		return address;
-	}
-
-	public void setAddress(String address) {
-		this.address = address;
-	}
-	
-	
-	
 	
 	
 }
